@@ -1,5 +1,5 @@
 import streamlit as st
-import app.prediction_helper as prediction_helper
+import prediction_helper as prediction_helper
 import pandas as pd
 import plotly.express as px
 
