@@ -18,9 +18,9 @@ The final solution includes:
 * Model training, comparison, and selection (XGBoost)
 * A fully functional **Streamlit web app** for real-time pricing strategy simulation
 
-📌 **Live App:** [*CodeX Pricing Strategy App*](https://codexvirtualinternship-v4gqjrsqeokmnhauoatoaj.streamlit.app/)
+📌 **Live App:** [*CodeX Pricing Strategy App*](https://codexvirtualinternship-bek5wguw53pt9gjhyxqqfc.streamlit.app/)
 
-📌 **GitHub Repo:** [CodeX_Pricing_Strategy](https://github.com/ruchitha-meenakshi/CodeX_VirtualInternship)
+📌 **GitHub Repo:** [CodeX_Pricing_Strategy](https://github.com/sahilshirodkar30/CodeX_VirtualInternship)
 
 ---
 
@@ -63,32 +63,16 @@ CodeX_VirtualInternship
 ├── app/                         # Streamlit web application
 │   ├── main.py                  # Dashboard UI & Logic
 │   ├── prediction_helper.py     # Inference pipeline & feature engineering
-│   ├── model_data.pkl           # Trained XGBoost Model (Production)
-│   └── model_columns.pkl        # Feature Schema
-│
-├── docs/                        # Project Documentation
-│   ├── data_cleaning_instructions.pdf
-│   ├── feature_engineering_instructions.pdf
-│   └── predictive_modeling_guide.pdf
+│   ├── test.py          
 │
 ├── models/                      # Model Training Artifacts (Backup)
 │   ├── model_columns.pkl
 │   └── model_data.pkl
 │
 ├── notebooks/                   # Jupyter Notebooks for analysis
-│   └── CodeX_project.ipynb      # End-to-End: Cleaning, EDA, Feature Eng., Modeling
-│
-├── outputs/                     # Generated Visuals & Reports
-│   └── figures/
-│       ├── age_boxplot.png          # Outlier detection
-│       └── model_evaluation_table.png # Model performance benchmark
-│
-├── scripts/                     # Utility Scripts
-│   ├── run_mlflow.py            # MLflow experiment tracking
-│   └── setup.py                 # Environment setup
+│   └── final_documents.ipynb      # End-to-End: Cleaning, EDA, Feature Eng., Modeling
 │
 ├── .gitignore                   # Excludes raw data & cache
-├── LICENSE
 ├── requirements.txt             # Dependencies
 └── README.md
 
@@ -146,27 +130,9 @@ The Streamlit dashboard allows the Strategy Team to simulate customer personas.
 
 📌 **Live App:** [*CodeX Pricing Strategy App*](https://codexvirtualinternship-v4gqjrsqeokmnhauoatoaj.streamlit.app/)
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/48847632-cd9e-44c0-8977-74060a6986fc" width="48%" alt="Dashboard"/>
-  <img src="https://github.com/user-attachments/assets/30a7a471-e7b5-43eb-9c86-af31383c33c9" width="48%" alt="Reports"/>
-</p>
-
-
-*(Screenshot placeholder - Run the app and capture the interface)*
 
 ---
 
-# **Data Privacy Notice**
-
-The dataset used for this project contains proprietary survey responses from CodeX.
-
-To comply with data usage policies:
-
-* The `data/` folder is included in `.gitignore`.
-* No raw or processed CSV files are hosted in this repository.
-* The notebooks demonstrate the *process* using the logic verified on local data.
-
----
 
 # **How to Run Locally**
 
@@ -211,12 +177,10 @@ streamlit run app/main.py
 
 # **Author**
 
-**Ruchitha Uppuluri**
+**Sahil Shirodkar**
 
 Data Science Virtual Intern @ CodeBasics
 
 ---
 
-## **License**
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
